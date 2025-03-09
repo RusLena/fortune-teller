@@ -1,0 +1,76 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 50px;
+    background-color: #d3b7f8;
+}
+
+#title::before {
+    content: "⭐ ";
+    font-size: 1.5em;
+}
+
+#title::after {
+    content: " ⭐";
+    font-size: 1.5em;
+}
+
+#fortune {
+    margin-top: 20px;
+    font-size: 1.5em;
+    color: #333;
+    padding: 20px;
+    border: 2px solid #41086c;
+    display: inline-block;
+    background-color: #fff;
+    border-radius: 10px;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+}
+
+button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    border: none;
+    background-color: #41086c;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #751089;
+}
+
+@media screen and (max-width: 600px) {
+    #fortune {
+        width: 80%;
+    }
+}
+
+/* Fade out effect */
+@keyframes fadeOut {
+    0% { opacity: 1; }
+    100% { opacity: 0; }
+}
+
+/* Animation for shake */
+@keyframes shake {
+    0% { transform: translateX(0); }
+    25% { transform: translateX(-5px); }
+    50% { transform: translateX(5px); }
+    75% { transform: translateX(-5px); }
+    100% { transform: translateX(0); }
+}
+
+#fortune.fade-out {
+    animation: fadeOut 2s forwards;
+}
+#fortuneTellerImage {
+    display: block;
+    margin: 0 auto;
+    padding: 20px;
+    max-width: 80%; 
+    border-radius: 15px; 
+}
