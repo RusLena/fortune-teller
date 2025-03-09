@@ -24,6 +24,7 @@ Welcome to the **Fortune Teller** project! This web app generates a random fortu
 ## Screenshot
 
 Here’s what the Fortune Teller app looks like:
+
 ![Fortune Teller Screenshot](images/Screenshot.png)
 
 ## How to Run the Project
