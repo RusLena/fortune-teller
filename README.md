@@ -20,6 +20,11 @@ Welcome to the **Fortune Teller** project! This web app generates a random fortu
 1. **User Interaction**: When the user clicks the "Get Your Fortune" button, a fortune is fetched from an external API (such as [Advice Slip API](https://api.adviceslip.com/)).s
 2. **Sound & Animation**: Upon receiving the fortune, the app plays a sound and displays the fortune with a shake animation.
 3. **API Integration**: The fortune is fetched in real-time using a `fetch()` request to an external API, so each fortune is random and fresh.
+   
+## Screenshot
+
+Here’s what the Fortune Teller app looks like:
+![Fortune Teller Screenshot](images/Screenshot.png)
 
 ## How to Run the Project
 
